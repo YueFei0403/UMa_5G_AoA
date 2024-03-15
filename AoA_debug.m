@@ -10,6 +10,9 @@ carrier.SubcarrierSpacing = 15;
 carrier.CyclicPrefix = 'Normal';
 ofdmInfo = nrOFDMInfo(carrier);
 
+%% === Parallel Computing Toolbox ===
+parpool(32);
+
 %% === Configure Transmit and Receive Antenna Arrays ===
 simParams.fc = 6e9; % freqRange = 'FR1';
 simParams.c = physconst('LightSpeed');
@@ -52,195 +55,233 @@ n = 0:simParams.NumRx-1;eta=pi;
 numUsefulOFDM = 12; % num subcarriers
 numSCS = 12;
 K = carrier.NSizeGrid * numSCS;
-pilotLengths = [1 3 4 5 8 12 16 32 48 52 64 72 80 99];
-numPilotLengths = length(pilotLengths);
+% pilotLengths = [1 3 4 5 8 12 16 32 48 52 64 72 80 99];
+% numPilotLengths = length(pilotLengths);
+snrdBRange = [-3 0 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20];
+numSNRLevel = length(snrdBRange);
 
 %% Hold data separately for each DU in $$_SingleDU$$ data structures
-NMSE_Hmk_MP_Pilot = zeros(numPilotLengths,1);
-NMSE_Hmk_MP_NoPilot = zeros(numPilotLengths,1);
-NMSE_Hmk_DFT_Pilot = zeros(numPilotLengths,1);
-NMSE_Hmk_LMMSE_Pilot = zeros(numPilotLengths,1);
+NMSE_Hmk_MP_SNR = zeros(numSNRLevel,1);
+NMSE_Hmk_MP_NoPilot_SNR = zeros(numSNRLevel,1);
+NMSE_Hmk_DFT_SNR = zeros(numSNRLevel,1);
+NMSE_Hmk_LMMSE_SNR = zeros(numSNRLevel,1);
 
-BER_MP_Pilot = zeros(numPilotLengths,1);
-BER_MP_NoPilot = zeros(numPilotLengths,1);
-BER_DFT = zeros(numPilotLengths,1);
-BER_MMSE = zeros(numPilotLengths,1);
-BER_True = zeros(numPilotLengths,1);
+BER_MP_Pilot = zeros(numSNRLevel,1);
+BER_MP_NoPilot = zeros(numSNRLevel,1);
+BER_DFT = zeros(numSNRLevel,1);
+BER_MMSE = zeros(numSNRLevel,1);
+BER_True = zeros(numSNRLevel,1);
 
-totalNumChannels = 30; % Monte-Carlo trials
-totalNumTrialsPerChannel = 100;
+totalNumChannels = 1; % Monte-Carlo trials
+totalNumTrialsPerChannel = 1;
 tolFloating = 1e-2;
 % 5.2129e-10 for 500 serving radius
 Beta = 4.2129e-10; % Empirical Large-scale fading coefficient
-noisePower = 5.1352e-08;
 %% >>>>>>>>>>>>>>>> MAIN SIMULATION LOOP -- Pilot Training <<<<<<<<<<<<<<<<<<<
-snrdB = 0;snrPower = 10^(snrdB/10); % power
 serveRadius = 100;
-EbN0 = zeros(numPilotLengths,1);
+EbN0 = zeros(numSNRLevel,1);
 simParams.totalNumSlots = 14;
 totalQPSKSymbols = simParams.totalNumSlots * numUsefulOFDM;
 simParams.totalNumChannels = totalNumChannels;
 usefulOFDMRange = 1:numUsefulOFDM;
+totalBERSym = numSCS*totalQPSKSymbols;
 for channelIdx = 1:totalNumChannels
-    for trialIdx = 1:totalNumTrialsPerChannel
-        [AoAs_True,Amk_True,sigGridMultiDU,...
-            noiseGridMultiDU,txGrid,txAmp] = genMultiDUChannelOutput(ofdmInfo,simParams,carrier,snrdB,serveRadius,channelIdx);
-        rxGridMultiDU = sigGridMultiDU + noiseGridMultiDU;
-        %% ========= Perform True Channel Estimation Algo. ===============
-        Hest_Builtin = zeros(simParams.NumRxMultiDU,1);
-        Hest_RandPhases = zeros(simParams.NumDU,1);
-        for DUIdx = 1:simParams.NumDU
-            antennaRange = (DUIdx-1)*8+1:DUIdx*8;
-            sigGrid = sigGridMultiDU(:,:,antennaRange);
-            noiseGrid = noiseGridMultiDU(:,:,antennaRange);
-            rxGrid = sigGrid + noiseGrid;
-            [hEstGrid,noiseEst] = nrChannelEstimate(rxGrid,txGrid);
-            Hmk_true = reshape(hEstGrid(1,:,:),1,[],simParams.NumRx);
-            Hmk_true = permute(Hmk_true,[3,2,1]); % NumRx X NumOFDMSymb
-    
-            ang_avg = 0;
-            for i=1:12
-                ang = angle(Hmk_true(1,i));
-                ang_avg = ang_avg + ang;
-            end
-            ang_avg = ang_avg / 12;
-            Hest_Builtin(antennaRange) = mean(Hmk_true,2);
-            Hest_RandPhases(DUIdx) = ang_avg;
-            % Hest_RandPhases(DUIdx) = angle( complex(Hest_Builtin((DUIdx-1)*8+1)) /  real(Hest_Builtin((DUIdx-1)*8+1)) );
-        end
-    
-         %% ===========================================
-         %  ===           Pilot Training            ===
-         %  ===========================================
-         pilotIdx = 1; freqIdx = randi([1 numSCS]);
-         while pilotIdx <= numPilotLengths
-             currPilotL = pilotLengths(pilotIdx);
+    fprintf(">>>>>>>>>>>>>>> Current Channel Idx = %d <<<<<<<<<<<<<<<<\n", channelIdx);
 
+    [AoAs_True,Amk_True,sigGridMultiDU,...
+                noiseGridMultiDU,txGrid,txAmp] = genMultiDUChannelOutput(ofdmInfo,simParams,carrier,serveRadius,channelIdx);
+    for snrIdx = 1:numSNRLevel
+        tmp_NMSE_MP = 0;
+        tmp_NMSE_MP_NoPilot = 0;
+        tmp_NMSE_DFT = 0;
+        tmp_NMSE_LMMSE = 0;
+        tmp_BER_MP = 0;
+        tmp_BER_MP_NoPilot = 0;
+        tmp_BER_DFT = 0;
+        tmp_BER_LMMSE = 0;
+        tmp_BER_True = 0;
+        snrdB = snrdBRange(snrIdx);
+        sigAmp = rms(sigGridMultiDU(:));
+        noiseGridMultiDU_SNR = sigAmp/sqrt(2*10^(snrdB/10)).*noiseGridMultiDU;
+        noiseAmp = rms(noiseGridMultiDU_SNR(:));
+        noisePower = noiseAmp^2;%(4e-05 / sqrt(2*10^(snrdB/10)))^2;
+        rxGridMultiDU_SNR = sigGridMultiDU + noiseGridMultiDU_SNR;
+        disp("================ SNR dB ===============")
+        disp(snrdB)
+        disp("================ SIGAMP ===============")
+        disp(sigAmp)
+        disp("================ NOISEAMP ===============")
+        disp(noiseAmp)
+        parfor trialIdx = 1:totalNumTrialsPerChannel
+            freqIdx = randi([1 numSCS]);
+
+            %% ========= Perform True Channel Estimation Algo. ===============
+            Hest_Builtin = zeros(simParams.NumRxMultiDU,1);
+            Hest_RandPhases = zeros(simParams.NumDU,1);
+            for DUIdx = 1:simParams.NumDU
+                antennaRange = (DUIdx-1)*8+1:DUIdx*8;
+                sigGrid = sigGridMultiDU(:,:,antennaRange);
+                noiseGrid = noiseGridMultiDU_SNR(:,:,antennaRange);
+                rxGrid = sigGrid + noiseGrid;
+                [hEstGrid,noiseEst] = nrChannelEstimate(rxGrid,txGrid);
+                Hmk_true = reshape(hEstGrid(1,:,:),1,[],simParams.NumRx);
+                Hmk_true = permute(Hmk_true,[3,2,1]); % NumRx X NumOFDMSymb
+        
+                ang_avg = 0;
+                for i=1:12
+                    ang = angle(Hmk_true(1,i));
+                    ang_avg = ang_avg + ang;
+                end
+                ang_avg = ang_avg / 12;
+                Hest_Builtin(antennaRange) = mean(Hmk_true,2);
+                Hest_RandPhases(DUIdx) = ang_avg;
+                % Hest_RandPhases(DUIdx) = angle( complex(Hest_Builtin((DUIdx-1)*8+1)) /  real(Hest_Builtin((DUIdx-1)*8+1)) );
+            end
+        
+             %% ===========================================
+             %  ===           Pilot Training            ===
+             %  ===========================================
              Hest_DFT = zeros(simParams.NumRxMultiDU,1);
              Hest_MP_Pilot = zeros(simParams.NumRxMultiDU,1);
              Hest_LinMMSE = zeros(simParams.NumRxMultiDU,1);
              Hest_MP_NoPilot = zeros(simParams.NumRxMultiDU,1);
-
+    
              for DUIdx = 1:simParams.NumDU
                  antennaRange = (DUIdx - 1)*8 + 1 : DUIdx*8;
                  sigGrid = sigGridMultiDU(:,:,antennaRange);
-                 noiseGrid = noiseGridMultiDU(:,:,antennaRange);
+                 noiseGrid = noiseGridMultiDU_SNR(:,:,antennaRange);
                  rxGrid = sigGrid + noiseGrid;
-
-                 Xpilot = txGrid(freqIdx,1:currPilotL);
-                 Ypilot = reshape(rxGrid(freqIdx,1:currPilotL,:),[],currPilotL,simParams.NumRx);
+    
+                 Xpilot = txGrid(freqIdx,1:numUsefulOFDM);
+                 Ypilot = reshape(rxGrid(freqIdx,1:numUsefulOFDM,:),[],numUsefulOFDM,simParams.NumRx);
                  Ypilot = permute(Ypilot,[3,2,1]);
-                 % Npilot = reshape(noiseGrid(freqIdx,1:currPilotL,:),[],currPilotL,simParams.NumRx);
+                 % Npilot = reshape(noiseGrid(freqIdx,1:numUsefulOFDM,:),[],numUsefulOFDM,simParams.NumRx);
                  % Npilot = permute(Npilot,[3,2,1]);
                  pilotNorm = norm(Xpilot);
-
+    
                  %% ================ 1. Perform Angle-Domain Channel Estimation ================
                  YTraining = Ypilot*Xpilot'./norm(Xpilot)^2;
                  AoAs_dft = reshape(sort(dft_aoa(YTraining,simParams.NumRx,simParams.NumPaths),'ascend'),1,simParams.NumPaths);
                  AoAs_mp_pilot = sort(matpencil_aoa(YTraining,simParams.NumPaths),'ascend');
-
+    
                  %% Channel Amplitude Estimation
                  Amk_dft = rxArrayStv(simParams.fc,[AoAs_dft;zeros(1,simParams.NumPaths)]);
                  Amk_mp = rxArrayStv(simParams.fc,[AoAs_mp_pilot;zeros(1,simParams.NumPaths)]);
                  Gmk_dft = Amk_dft * (Amk_dft\(Ypilot*Xpilot'/pilotNorm^2));
                  Gmk_mp = Amk_mp * (Amk_mp\(Ypilot*Xpilot'/pilotNorm^2));
-
+    
                  Hest_DFT(antennaRange) = Hest_DFT(antennaRange) + Gmk_dft;
                  Hest_MP_Pilot(antennaRange) = Hest_MP_Pilot(antennaRange) + Gmk_mp;
-
+    
                  Hest_LinMMSE(antennaRange) = Hest_LinMMSE(antennaRange) + h_MMSE_CE(Ypilot,Xpilot,Beta,noisePower);
-
+    
                  mag_mp_nopilot = zeros(simParams.NumRx,1);
-                 for ofdmSymIdx = 1:currPilotL
+                 for ofdmSymIdx = 1:numUsefulOFDM
                      yAmp = norm(Ypilot(:,ofdmSymIdx));
                      AoAs_mp_noPilot = sort(matpencil_aoa(Ypilot(:,ofdmSymIdx),simParams.NumPaths),'ascend');
                      Amk_hat_mp_noPilot = rxArrayStv(simParams.fc,[AoAs_mp_noPilot;zeros(1,simParams.NumPaths)]);
                      tmp = Amk_hat_mp_noPilot*(Amk_hat_mp_noPilot\(Ypilot(:,ofdmSymIdx)/txAmp));
-
+    
                       % Remove (Random Phase + Random Symbol Phase) Altogether
                       phi_rand = angle(tmp(1));
                       mag_mp_nopilot = mag_mp_nopilot + tmp.*exp(-1i*phi_rand);
                  end
-                 Hest_MP_NoPilot(antennaRange) = Hest_MP_NoPilot(antennaRange) + (mag_mp_nopilot./currPilotL);
+                 Hest_MP_NoPilot(antennaRange) = Hest_MP_NoPilot(antennaRange) + (mag_mp_nopilot./numUsefulOFDM);
                  Hest_MP_NoPilot(antennaRange) = tmp .* exp(1i*Hest_RandPhases(DUIdx));
              end
              nmseMP_Pilot = computeNMSE(Hest_Builtin,Hest_MP_Pilot);
              nmseMP_NoPilot = computeNMSE(Hest_Builtin,Hest_MP_NoPilot);
              nmseDFT = computeNMSE(Hest_Builtin,Hest_DFT);
              nmseLMMSE = computeNMSE(Hest_Builtin,Hest_LinMMSE);
+    
+             tmp_NMSE_MP = tmp_NMSE_MP + nmseMP_Pilot;
+             tmp_NMSE_MP_NoPilot = tmp_NMSE_MP_NoPilot + nmseMP_NoPilot;
+             tmp_NMSE_DFT = tmp_NMSE_DFT + nmseDFT;
+             tmp_NMSE_LMMSE = tmp_NMSE_LMMSE + nmseLMMSE;
+    
+             
+             YSampled = rxGridMultiDU_SNR(1:numSCS,1:totalQPSKSymbols,:);
+             YQPSKBER = reshape(permute(YSampled,[2 1 3]), [[],size(YSampled,1)*size(YSampled,2),simParams.NumRxMultiDU]);
+             YQPSKBER = permute(YQPSKBER,[2,1]); % NumRx X NumQPSKSymb
+             XQPSK = txGrid(1:numSCS,1:totalQPSKSymbols) ./ txAmp;
+             symEnc = reshape(XQPSK.',[size(XQPSK,1)*size(XQPSK,2) 1]);
+             numerrMP = computeBER(YQPSKBER,symEnc,Hest_MP_Pilot);
+             numerrMP_NoPilot = computeBER(YQPSKBER,symEnc,Hest_DFT);
+             numerrDFT = computeBER(YQPSKBER,symEnc,Hest_DFT);
+             numerrLMMSE = computeBER(YQPSKBER,symEnc,Hest_LinMMSE);
+             numerrTrue = computeBER(YQPSKBER,symEnc,Hest_Builtin);
+             tmp_BER_MP = tmp_BER_MP + numerrMP;
+             tmp_BER_MP_NoPilot = tmp_BER_MP_NoPilot + numerrMP_NoPilot;
+             tmp_BER_DFT = tmp_BER_DFT + numerrDFT;
+             tmp_BER_LMMSE = tmp_BER_LMMSE + numerrLMMSE;
+             tmp_BER_True = tmp_BER_True + numerrTrue;
 
-             NMSE_Hmk_MP_Pilot(pilotIdx) = NMSE_Hmk_MP_Pilot(pilotIdx) + nmseMP_Pilot;
-             NMSE_Hmk_MP_NoPilot(pilotIdx) = NMSE_Hmk_MP_NoPilot(pilotIdx) + nmseMP_NoPilot;
-             NMSE_Hmk_DFT_Pilot(pilotIdx) = NMSE_Hmk_DFT_Pilot(pilotIdx) + nmseDFT;
-             NMSE_Hmk_LMMSE_Pilot(pilotIdx) = NMSE_Hmk_LMMSE_Pilot(pilotIdx) + nmseLMMSE;
-
-             qpskFreqIdx = randi([1 numSCS]);
-             YQPSKBER = reshape(rxGridMultiDU(qpskFreqIdx,1:totalQPSKSymbols,:),[],totalQPSKSymbols,simParams.NumRxMultiDU);
-             YQPSKBER = permute(YQPSKBER,[3,2,1]); % NumRx X NumQPSKSymb
-             symEnc = txGrid(qpskFreqIdx,1:totalQPSKSymbols) ./ txAmp;
-             symEnc = reshape(symEnc,totalQPSKSymbols,[]);
-             berMP = computeBER(YQPSKBER,symEnc,Hest_MP_Pilot);
-             berMP_NoPilot = computeBER(YQPSKBER,symEnc,Hest_DFT);
-             berDFT = computeBER(YQPSKBER,symEnc,Hest_DFT);
-             berLMMSE = computeBER(YQPSKBER,symEnc,Hest_LinMMSE);
-             berTrue = computeBER(YQPSKBER,symEnc,Hest_Builtin);
-             BER_MP_Pilot(pilotIdx) = BER_MP_Pilot(pilotIdx) + berMP;
-             BER_MP_NoPilot(pilotIdx) = BER_MP_NoPilot(pilotIdx) + berMP_NoPilot;
-             BER_DFT(pilotIdx) = BER_DFT(pilotIdx) + berDFT;
-             BER_MMSE(pilotIdx) = BER_MMSE(pilotIdx) + berLMMSE;
-             BER_True(pilotIdx) = BER_True(pilotIdx) + berTrue;
-
-             pilotIdx = pilotIdx + 1;
-         end
-     end
+             if trialIdx == 1
+                figure
+                plot(unwrap(angle(Hest_Builtin)),'DisplayName','Theoretical');
+                hold on
+                plot(unwrap(angle(Hest_MP_NoPilot)),'DisplayName','No-Pilot Training');
+                legend show
+                grid on
+                hold off
+             end
+        end
+        NMSE_Hmk_MP_SNR(snrIdx) = NMSE_Hmk_MP_SNR(snrIdx) + tmp_NMSE_MP;
+        NMSE_Hmk_MP_NoPilot_SNR(snrIdx) = NMSE_Hmk_MP_NoPilot_SNR(snrIdx) + tmp_NMSE_MP_NoPilot;
+        NMSE_Hmk_DFT_SNR(snrIdx) = NMSE_Hmk_DFT_SNR(snrIdx) + tmp_NMSE_DFT;
+        NMSE_Hmk_LMMSE_SNR(snrIdx) = NMSE_Hmk_LMMSE_SNR(snrIdx) + tmp_NMSE_LMMSE;
+        
+        BER_MP_Pilot(snrIdx) = BER_MP_Pilot(snrIdx) + tmp_BER_MP;
+        BER_MP_NoPilot(snrIdx) = BER_MP_NoPilot(snrIdx) + tmp_BER_MP_NoPilot;
+        BER_DFT(snrIdx) = BER_DFT(snrIdx) + tmp_BER_DFT;
+        BER_MMSE(snrIdx) = BER_MMSE(snrIdx) + tmp_BER_LMMSE;
+        BER_True(snrIdx) = BER_True(snrIdx) + tmp_BER_True;
+    end
 end
 
+NMSE_Hmk_MP_SNR = NMSE_Hmk_MP_SNR ./ (totalNumChannels*totalNumTrialsPerChannel);
+NMSE_Hmk_MP_NoPilot_SNR = NMSE_Hmk_MP_NoPilot_SNR ./ (totalNumChannels*totalNumTrialsPerChannel);
+NMSE_Hmk_DFT_SNR = NMSE_Hmk_DFT_SNR ./ (totalNumChannels*totalNumTrialsPerChannel);
+NMSE_Hmk_LMMSE_SNR = NMSE_Hmk_LMMSE_SNR ./  (totalNumChannels*totalNumTrialsPerChannel);
 
-figure
-plot(unwrap(angle(Hest_Builtin)),'DisplayName','Theoretical');
-hold on
-plot(unwrap(angle(Hest_MP_NoPilot)),'DisplayName','No-Pilot Training');
-legend show
-grid on
-hold off
-
-NMSE_Hmk_MP_Pilot = NMSE_Hmk_MP_Pilot ./ (totalNumChannels*totalNumTrialsPerChannel);
-NMSE_Hmk_MP_NoPilot = NMSE_Hmk_MP_NoPilot ./ (totalNumChannels*totalNumTrialsPerChannel);
-NMSE_Hmk_DFT_Pilot = NMSE_Hmk_DFT_Pilot ./ (totalNumChannels*totalNumTrialsPerChannel);
-NMSE_Hmk_LMMSE_Pilot = NMSE_Hmk_LMMSE_Pilot ./  (totalNumChannels*totalNumTrialsPerChannel);
+BER_MP_Pilot = BER_MP_Pilot ./ (totalBERSym*totalNumChannels*totalNumTrialsPerChannel);
+BER_MP_NoPilot = BER_MP_NoPilot ./ (totalBERSym*totalNumChannels*totalNumTrialsPerChannel);
+BER_DFT = BER_DFT ./ (totalBERSym*totalNumChannels*totalNumTrialsPerChannel);
+BER_MMSE = BER_MMSE ./ (totalBERSym*totalNumChannels*totalNumTrialsPerChannel);
+BER_True = BER_True ./ (totalBERSym*totalNumChannels*totalNumTrialsPerChannel);
 
 %% >>>>>>>>>>>>>>>>>>>>> Plotting Start >>>>>>>>>>>>>>>>>>>>
 job=string(datetime('now','Format',"yyyy-MM-dd-HH-mm-ss"));
 
 fig1=figure;
-semilogy(pilotLengths,NMSE_Hmk_MP_Pilot,'-o','DisplayName','Hmk Matrix Pencil (Pilot-Training)');
+semilogy(snrdBRange,NMSE_Hmk_MP_SNR,'-o','DisplayName','Hmk Matrix Pencil (Pilot-Training)');
 hold on;
-semilogy(pilotLengths,NMSE_Hmk_MP_NoPilot,'-o','DisplayName','Hmk Matrix Pencil (Zero-Pilot)');
-semilogy(pilotLengths,NMSE_Hmk_DFT_Pilot,'-^','DisplayName','Hmk DFT');
-semilogy(pilotLengths,NMSE_Hmk_LMMSE_Pilot,'-*','DisplayName','Hmk MMSE');
+semilogy(snrdBRange,NMSE_Hmk_MP_NoPilot_SNR,'-o','DisplayName','Hmk Matrix Pencil (Zero-Pilot)');
+semilogy(snrdBRange,NMSE_Hmk_DFT_SNR,'-^','DisplayName','Hmk DFT');
+semilogy(snrdBRange,NMSE_Hmk_LMMSE_SNR,'-*','DisplayName','Hmk MMSE');
 grid on
-xlabel('Number of Pilots')
+xlabel('SNR (dB)')
 ylabel('NMSE of CSI-Est')
 title(sprintf('NMSE of CSI: NAnt=%d ServeRadius=%d NumPaths=%d',simParams.NumRx,serveRadius,simParams.NumPaths));
 legend show
 hold off
-pngfile=sprintf('NMSE_CSI_zeroPilot_servR%d_%dPaths_j%s',serveRadius,simParams.NumPaths,job);
+pngfile=sprintf('NMSE_SNR_Debug_servR%d_%dPaths_j%s',serveRadius,simParams.NumPaths,job);
 print(fig1,pngfile,'-dpng')
 
 
 fig2=figure;
-semilogy(pilotLengths,BER_MP_Pilot,'-o','DisplayName','BER Matrix-Pencil (Pilot-Training)');
+semilogy(snrdBRange,BER_MP_Pilot,'-o','DisplayName','BER Matrix-Pencil (Pilot-Training)');
 hold on
-semilogy(pilotLengths,BER_MP_NoPilot,'-o','DisplayName','BER Matrix-Pencil (Zero-Pilot)');
-semilogy(pilotLengths,BER_DFT,'-^','DisplayName','BER DFT');
-semilogy(pilotLengths,BER_MMSE,'-*','DisplayName','BER Linear-MMSE');
+semilogy(snrdBRange,BER_MP_NoPilot,'-o','DisplayName','BER Matrix-Pencil (Zero-Pilot)');
+semilogy(snrdBRange,BER_DFT,'-^','DisplayName','BER DFT');
+semilogy(snrdBRange,BER_MMSE,'-*','DisplayName','BER Linear-MMSE');
 grid on
-xlabel('Number of Pilots')
+xlabel('SNR (dB)')
 ylabel('BER')
 title(sprintf('BER vs Number of Pilots ServeRadius=%d NumPaths=%d',serveRadius,simParams.NumPaths));
 legend show     
 hold off
-pngfile=sprintf('BER_CSI_zeroPilot_servR%d_%dPaths_j%s',serveRadius,simParams.NumPaths,job);
+pngfile=sprintf('BER_SNR_Debug_servR%d_%dPaths_j%s',serveRadius,simParams.NumPaths,job);
 print(fig2,pngfile,'-dpng')
 
 
@@ -263,7 +304,7 @@ print(fig2,pngfile,'-dpng')
 %                   HELPER FUNCTIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [AoAs_True_MultiDU,Amk_True_MultiDU,sigGridMultiDU,noiseGridMultiDU,txGrid,txAmp] = genMultiDUChannelOutput(...
-    ofdmInfo,simParams,carrier,snrdB,serveRadius,channelIdx)
+    ofdmInfo,simParams,carrier,serveRadius,channelIdx)
 refax = [[1;0;0] [0;1;0] [0;0;0]];
 % Transmitter Setup
 txAmp = 1; % 23dBm
@@ -332,8 +373,9 @@ for DUIdx = 1:simParams.NumDU
     Amk_True_MultiDU = cat(2,Amk_True_MultiDU,Amk_True);
     sigGridMultiDU = cat(3,sigGridMultiDU,sigGrid);
 end
-sigAmp = rms(sigGridMultiDU(:));
-noiseGridMultiDU = sigAmp/sqrt(2*10^(snrdB/10)).*complex(randn(size(sigGridMultiDU)),randn(size(sigGridMultiDU)));
+% sigAmp = rms(sigGridMultiDU(:));
+% noiseGridMultiDU = sigAmp/sqrt(2*10^(snrdB/10)).*complex(randn(size(sigGridMultiDU)),randn(size(sigGridMultiDU)));
+noiseGridMultiDU = complex(randn(size(sigGridMultiDU)),randn(size(sigGridMultiDU)));
 end
 
 
@@ -342,16 +384,16 @@ function nmse = computeNMSE(H_true,H_est)
 % Input:
 %   H_true / H_est: NumRx x NumOFDMSym (Time Domain Samples)
     sqErr = mean(abs(H_true - H_est).^2);
-    sqNorm_H_true = mean(abs(H_true).^2);
+    sqNorm_H_true = norm(H_true).^2;
     nmse = sqErr / sqNorm_H_true;
 end
 %% >>>>>>>>>> BER >>>>>>>>>>>>
-function BER = computeBER(yQPSK,symEnc,Hmk_est)
+function numErr = computeBER(yQPSK,symEnc,Hmk_est)
     [~,nSymb] = size(yQPSK);
     symDec = Hmk_est'*yQPSK;
     symEncQPSK = nrSymbolDemodulate(symEnc,'QPSK','DecisionType','Hard');
     symDecQPSK = nrSymbolDemodulate(symDec.','QPSK','DecisionType','Hard');
-    BER = biterr(symEncQPSK,symDecQPSK);
+    numErr = biterr(symEncQPSK,symDecQPSK);
 end
 
 function h_LinMMSE = h_MMSE_CE(y,x,Beta,noisePower)
@@ -362,8 +404,6 @@ function h_LinMMSE = h_MMSE_CE(y,x,Beta,noisePower)
 % x                 = pilot symbol
 % noise
 x_sqval = trace(x*x');
-disp(x_sqval)
-disp(noisePower)
 yExtracted = y*x';
 W_MMSE = Beta / (Beta*x_sqval + noisePower);
 h_LinMMSE = W_MMSE*yExtracted;
