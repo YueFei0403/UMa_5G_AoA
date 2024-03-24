@@ -1,0 +1,24 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Opening log file:  /tmp/java.log.34390
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+{Error using parpool (line 151)
+You requested a minimum of 32 workers, but the cluster "local" has the
+NumWorkers property set to allow a maximum of 1 workers. To run a communicating
+job on more workers than this (up to a maximum of 512 for the Local cluster),
+increase the value of the NumWorkers property for the cluster. The default
+value of NumWorkers for a Local cluster is the number of physical cores on the
+local machine.
+
+Error in AoA_debug (line 14)
+parpool(32);
+} 

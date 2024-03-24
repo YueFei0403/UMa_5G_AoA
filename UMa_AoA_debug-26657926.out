@@ -1,0 +1,627 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Opening log file:  /tmp/java.log.47835
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>>>>>>>>>>>>>>> Current Channel Idx = 1 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+    -3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0239e-05
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 1).
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     0
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3884e-05
+
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5227e-05
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0308e-05
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5925e-05
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.2018e-05
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8536e-05
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5433e-05
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2667e-05
+
+================ SNR dB ===============
+    10
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.0202e-05
+
+================ SNR dB ===============
+    11
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.8005e-05
+
+================ SNR dB ===============
+    12
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.6047e-05
+
+================ SNR dB ===============
+    13
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.4302e-05
+
+================ SNR dB ===============
+    14
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.2747e-05
+
+================ SNR dB ===============
+    15
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.1360e-05
+
+================ SNR dB ===============
+    16
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.0125e-05
+
+================ SNR dB ===============
+    17
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0239e-06
+
+================ SNR dB ===============
+    18
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   8.0425e-06
+
+================ SNR dB ===============
+    19
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   7.1679e-06
+
+================ SNR dB ===============
+    20
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3884e-06
+
+>>>>>>>>>>>>>>> Current Channel Idx = 2 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+    -3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0213e-05
+
+================ SNR dB ===============
+     0
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3866e-05
+
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5214e-05
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0297e-05
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5915e-05
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.2009e-05
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8528e-05
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5426e-05
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2661e-05
+
+================ SNR dB ===============
+    10
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.0196e-05
+
+================ SNR dB ===============
+    11
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.8000e-05
+
+================ SNR dB ===============
+    12
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.6042e-05
+
+================ SNR dB ===============
+    13
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.4298e-05
+
+================ SNR dB ===============
+    14
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.2743e-05
+
+================ SNR dB ===============
+    15
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.1357e-05
+
+================ SNR dB ===============
+    16
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.0122e-05
+
+================ SNR dB ===============
+    17
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0213e-06
+
+================ SNR dB ===============
+    18
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   8.0403e-06
+
+================ SNR dB ===============
+    19
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   7.1659e-06
+
+================ SNR dB ===============
+    20
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3866e-06
+
+>>>>>>>>>>>>>>> Current Channel Idx = 3 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+    -3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0171e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     0
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3836e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5193e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0278e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5898e-05
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.1994e-05
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8515e-05
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5414e-05
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2650e-05
+
+slurmstepd: error: *** JOB 26657926 ON nc11020 CANCELLED AT 2024-03-13T06:47:12 DUE TO TIME LIMIT ***

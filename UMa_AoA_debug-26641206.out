@@ -1,0 +1,4295 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Opening log file:  /tmp/java.log.12256
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>>>>>>>>>>>>>>> Current Channel Idx = 1 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5227e-04
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 1).
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0297e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5898e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.2036e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8545e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5429e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2731e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    10
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.0254e-04
+
+================ SNR dB ===============
+    11
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.7964e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    12
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.6070e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    13
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.4314e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    15
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.1330e-04
+
+================ SNR dB ===============
+    17
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0558e-05
+
+================ SNR dB ===============
+    20
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3803e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+>>>>>>>>>>>>>>> Current Channel Idx = 2 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5186e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0272e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5899e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.1982e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8570e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5437e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2722e-04
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    10
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.0175e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    11
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.7976e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    12
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.6069e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    13
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.4320e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    15
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.1369e-04
+
+================ SNR dB ===============
+    17
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   8.9915e-05
+
+================ SNR dB ===============
+    20
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3857e-05
+
+>>>>>>>>>>>>>>> Current Channel Idx = 3 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5102e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0341e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.5968e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.2078e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8525e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5469e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2628e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    10
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.0165e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    11
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.8075e-04
+
+================ SNR dB ===============
+    12
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.6095e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    13
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.4296e-04
+
+================ SNR dB ===============
+    15
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   1.1349e-04
+
+================ SNR dB ===============
+    17
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   9.0323e-05
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+    20
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   6.3987e-05
+
+>>>>>>>>>>>>>>> Current Channel Idx = 4 <<<<<<<<<<<<<<<<
+================ SNR dB ===============
+     3
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.5167e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     4
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   4.0127e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     5
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.6002e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     6
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   3.1958e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     7
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.8528e-04
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     8
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.5400e-04
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 2, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+Warning: Rank deficient, rank = 1, tol =  5.024296e-14.
+In parallel_function>make_general_channel/channel_general (line 841)
+In remoteParallelFunction (line 67)
+
+================ SNR dB ===============
+     9
+
+================ SIGAMP ===============
+   6.3887e-05
+
+================ NOISEAMP ===============
+   2.2686e-04
+
+{Error using distcomp.remoteparfor/buildParforController (line 127)
+No running parallel pool. To start a new parallel pool use parpool.
+
+Error in distcomp.remoteparfor/rebuildParforController (line 189)
+                obj.buildParforController();
+
+Error in distcomp.remoteparfor/handleIntervalErrorResult (line 258)
+                obj.rebuildParforController();
+
+Error in distcomp.remoteparfor/getCompleteIntervals (line 395)
+                            [r, err] = obj.handleIntervalErrorResult(r);
+
+Error in AoA_debug (line 111)
+        disp(noiseAmp)
+} 
+slurmstepd: error: Detected 1 oom_kill event in StepId=26641206.batch. Some of the step tasks have been OOM Killed.
