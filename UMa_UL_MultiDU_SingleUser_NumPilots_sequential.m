@@ -404,7 +404,7 @@ end
 function h_LinMMSE = h_MMSE_CE(y,x,Beta,noisePower)
 % y                 = Frequency-domain received signal
 %                   NumRx X NumSym
-% d                 = Large-scale fading parameter
+% Beta              = Path loss + shadowing
 %                   NumRx X NumPaths
 % x                 = pilot symbol
 % noise
